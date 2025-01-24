@@ -34,5 +34,5 @@ $env:PORT=4000; node 1_http.js
 
 ### Servidor con Express
 ```bash
-$env:PORT=1234; node express_server.js
+$env:PORT=1234; 3_express_json.js
 ```
