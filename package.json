@@ -1,0 +1,29 @@
+{
+  "name": "2.-practicas_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon 1_http.js",
+    "dev2": "nodemon 2_express.js",
+    "dev3": "nodemon 3_express_json.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "http"
+  ],
+  "author": "David Castro Vidal",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "semistandard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "semistandard"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}

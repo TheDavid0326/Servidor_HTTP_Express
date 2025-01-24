@@ -1,0 +1,17 @@
+### GET
+GET http://localhost:1234/
+
+### GET country
+GET http://localhost:1234/countries/nigeria
+
+### POST
+POST http://localhost:1234/countries
+Content-Type: application/json
+
+{
+  "name": "España",
+  "capital": "Madrid",
+  "iso2": "ES",
+  "iso3": "ESP"
+}
+
